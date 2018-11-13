@@ -14,17 +14,19 @@ body {
   margin:0px;
 
 }
+@font-face { font-family: snowlete; src: url('fonts/DSSnowfall.TTF'); } 
 
-h1 {
+.first {
   margin: 0;
   padding: 0;
-  
+  font-family: snowlete;
+
   position: absolute;
-  top: 50%;
+  top: 15%;
   left: 50%;
   
   color: white;
-  font-size: 7vmin;
+  font-size: 15vmin;
   text-align: center;
   text-transform: uppercase;
 
@@ -52,7 +54,7 @@ h1 {
 
     transform: scale(1.1);
   }
-/////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 html {
     height: 100%;
     overflow: hidden;
@@ -123,3 +125,5 @@ body {
     width: 100%;
     height: 100%;
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
