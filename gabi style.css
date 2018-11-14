@@ -1,51 +1,50 @@
-#bbg, #search-bg {
+#bbg {
   
-  width:1366px;height:768px;
-  background-repeat: no-repeat;
-  background-size: 1080px auto;
+ height:768px;
+ 
+ overflow-y:scroll;
+
 }
 
-#bbg {
-  background-position: center top;
-  padding: 70px 90px 120px 90px;
-}
 
 #search-container {
   position: relative;
   top:30%;
+
 }
 
-#search-bg {
-  /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  z-index: 99;
 
-  /* Pull the background 70px higher to the same place as #bg's */
-  background-position: center -70px;
-
-  -webkit-filter: blur(10px);
-  filter: url('/media/blur.svg#blur');
-  filter: blur(10px);
-}
 
 #search {
   /* Put this on top of the blurred layer */
   position: relative;
-  z-index: 100;
+  z-index: 1000;
+  color:white;
   padding: 25px;
   background: rgb(34,34,34); /* for IE */
   background: rgba(34,34,34,0.75);
 }
 
-@media (max-width: 600px ) {
-  #bbg { padding: 10px; }
-  #search-bg { background-position: center -10px; }
-}
 
 #search h2, #search h5, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
 #search h2 { margin-bottom: 50px }
 #search h5 { margin-top: 70px }
+@font-face { font-family: snowlete; src: url('fonts/DSSnowfall.TTF'); } 
+#titlulet{
+
+  margin: 0;
+  padding: 0;
+  font-family: snowlete;
+
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  
+  color: white;
+  font-size: 15vmin;
+  text-align: center;
+  text-transform: uppercase;
+
+  transform: translate3d(-50%, -50%, 0);
+
+}
