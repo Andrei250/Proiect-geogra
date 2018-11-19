@@ -20,6 +20,33 @@ body {
 
 }
 
+#titlulet1{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top:17%;left:50%;
+  color: white;
+ 
+  font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: frost;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+#titlulet2{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top:7%;left:50%;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: frost;
+  transform: translate3d(-50%, -50%, 0);
+}
+
 h1 {
   margin: 0;
   padding: 0;
