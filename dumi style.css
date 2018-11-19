@@ -6,6 +6,11 @@
 
 html, body {
   height: 100%;
+   background: url(images/da.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
@@ -50,11 +55,7 @@ body {
     height: 100%;
     overflow: hidden;
     color: #fff;
-    background-color: #9cf;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#6af), to(#bdf));
-    background-image: -webkit-linear-gradient(#6af, #bdf);
-    background-image: -moz-linear-gradient(#6af, #bdf);
-    background-image: linear-gradient(#6af, #bdf);
+ 
 }
 
 ::-webkit-scrollbar { 
