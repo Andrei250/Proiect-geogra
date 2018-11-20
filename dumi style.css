@@ -19,6 +19,21 @@ body {
   margin:0px;
 
 }
+.altcontentut{
+
+  border-left: 1px solid black;
+  border-right:1px solid black;
+
+}
+.contentut{
+    background-color:white;
+    position:relative;
+    top:80%;
+    margin-bottom:25%;
+
+}
+
+
 
 #titlulet1{
   margin: 0;
@@ -34,11 +49,26 @@ body {
   transform: translate3d(-50%, -50%, 0);
 }
 
+#titlulet3{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top:47%;left:50%;
+  color: white;
+ 
+  font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: frost;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+
 #titlulet2{
   margin: 0;
   padding: 0;
   position: relative;
-  top:7%;left:50%;
+  top:37%;left:50%;
   color: white;
   font-size: 100px;
   text-align: center;
